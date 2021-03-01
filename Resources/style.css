@@ -1,0 +1,60 @@
+/* .btn-btn-secondary-dropdown-toggle{
+    position:fixed;
+    right: 5px;
+    width: 300px;
+    border: 1px solid #73AD21;
+    padding: 10px;
+  } */
+
+
+/* Add your styles here */
+.navbar{
+    background: white;
+    padding: 10px;
+}
+
+/*This will center links to create a basic navigation bar*/
+.navbar li{
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    box-shadow: thistle;
+    margin-left: 10px;
+}
+
+/*This will remove link and underscore*/
+.navbar li a{
+    color: black;
+    text-decoration: none;
+}
+
+/*This will add style to the class=header*/
+.header{
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(rgb(92, 135, 199), rgb(108, 180, 108));
+}
+
+/*This will add style to the class=header*/
+.body{
+    background: #f1f1f1;
+    text-align: left-center;
+}
+
+/*This will add style to the class=header*/
+.posts h2{
+    font-size: 20px;
+}
+
+.post p{
+    font-size: 12px;
+}
+
+.post{
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
