@@ -20,10 +20,10 @@
 <!-- Include a button to link back to main page, a drop down menu to plots, & links to comparison & data page. -->
 <body>
 <nav id="navi" class="navbar navbar-default">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> 
-        <span class="icon-bar"></span> <span class="icon-bar"></span> </button> -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="landing_page.html">Latitude</a></div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
@@ -31,12 +31,12 @@
           <a href="#" class="services dropdown-toggle"  data-toggle="dropdown" role="button" aria-expanded="false">Plots<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="temp.html">Maximum Temperature</a></li>
-            <li><a href="humidity.html">Maximum Temperature</a></li>
-            <li><a href="couldiness.html">Cloudiness</a></li>
+            <li><a href="humidity.html">Humidity</a></li>
+            <li><a href="clouds.html">Cloudiness</a></li>
             <li><a href="windspd.html">Wind Speed</a></li>
           </ul>
           <li class=""> <a href="comparison.html" class="about">Comparison</a></li>
-          <li class=""><a href="#" class="contact">Data</a></li>
+          <li class=""><a href="data.html" class="contact">Data</a></li>
         </ul>
       </div>
     </div>
@@ -49,7 +49,7 @@
 <!-- Include side bar links to each figure - i.e. each image should take user to visualization & explanation of project. -->
 <div class="col-lg-5 col-md-12">
   <div class="visuals-figures">
-    <h2 class="posts">Figure 1:</h2>
+    <h2 class="posts">Figure 1: Maximum Temperature</h2>
 
   <!-- Figure 1: Lat vs Maximum Temperature -->
   <div class="container">
@@ -63,14 +63,14 @@
   <div class="container">
     <section class="row">
       <div class="col-lg-7 col-md-12">
-        <p>The purpose of this project was to analyze how city weather is affected by its location to the equator. This was accomplished by acquiring data
-          from the OpenWeatherMap API. Data for over 500 cities was pulled from this API to establish a dataset for further analysis.
-        </p>
-        <p>To complete further analysis of this dataset, Matplotlib was utilized to plot latitude vs various weather factors. These factors included: humidity, temperature, 
-          wind speed, and cloudiness. Per this dashboard, the source data as well as the visualizations generated from the analysis process can be accessed. In addition, further insight
-          of any observed trends and correlations is provided.
+        <p>
+            Above is the output analysis of a cities latitude and the maximum temperature of those cities. Latitude is a main factor
+            affecting temperature, therefore the further a city is from the equator, the lower the temperature.
         </p>
     </section>
+  </br>
+  </br>
+  </br>
 </div>
   
 </body>

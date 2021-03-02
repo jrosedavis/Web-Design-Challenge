@@ -32,6 +32,7 @@
 .header{
     font-size: 15px;
     text-align: left;
+    border-radius: 4px;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -57,4 +58,34 @@
     margin-top: 25px;
     margin-right: 100px;
     margin-left: 100px;
+}
+
+.table{
+    font-size: 15px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    column-span: all;
+}
+
+.navbar-brand{
+    background-color: rgb(184, 217, 240);
+    color: white;
+    border: 2px solid #0c0909;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.body{
+    padding-bottom: 20px;
+}
+
+.visuals-header{
+    margin-top: 25px;
+}
+
+.posts{
+    margin-top: 25px;
 }
