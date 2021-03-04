@@ -4,21 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard: Web Visualizations</title>
+  <title>Dashboard: Comparison</title>
   <link rel="stylesheet" href="reset.css">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
   <link rel="stylesheet" href="style.css"/>
-</head>
-
+  <link rel="icon" href="./assets/images/iconwrld.png" type="image/x-icon">
 </head>
 
 <!-- Include a button to link back to main page, a drop down menu to plots, & links to comparison & data page. -->
-<body>
+<body class="body-plots">
 <nav id="navi" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -52,36 +46,40 @@ and 1 across on extra-small and small screens. -->
 
     <div class="col-sm-12">
     <h4><strong>Click any plot to access further analysis:</strong></h4>
-</br></br></br>
+</br>
 </div>
 
    <!-- Figure 1: Lat vs Maximum Temperature -->
    <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12">
+        <div class="comp-header">.vs Maximum Temperature</div>
         <a href="temp.html">
-          <img src="./assets/images/Fig1.png" width=640px height=550px alt="Latitude vs Maximum Temperature">
+          <img src="./assets/images/Fig1.png" width=450px height=350px alt="Latitude vs Maximum Temperature">
         </a>
   </div>
 
     <!-- Figure 2: Lat vs Humidity -->
       <div class="col-lg-6 col-md-12">
+        <div class="comp-header">.vs Humidty</div>
         <a href="humidity.html">
-          <img src="./assets/images/Fig2.png" width=650px height=550px alt="Latitude vs Humidity">
+          <img src="./assets/images/Fig2.png" width=450px height=350px alt="Latitude vs Humidity">
         </a>
   </div>
 
     <!-- Figure 3: Lat vs Cloudiness -->
     <div class="col-lg-6 col-md-12">
+      <div class="comp-header">.vs Cloudiness</div>
         <a href="clouds.html">
-          <img src="./assets/images/Fig3.png" width=650px height=550px alt="Latitude vs Cloudiness">
+          <img src="./assets/images/Fig3.png" width=450px height=350px alt="Latitude vs Cloudiness">
         </a>
   </div>
 
     <!-- Figure 4: Lat vs Wind Speed -->
     <div class="col-lg-6 col-md-12">
+      <div class="comp-header">.vs Wind Speed</div>
         <a href="windspd.html">
-          <img src="./assets/images/Fig4.png" width=650px height=550px alt="Latitude vs Wind Speed">
+          <img src="./assets/images/Fig4.png" width=450px height=350px alt="Latitude vs Wind Speed">
         </a></br></br></br></br></br></br>
           </div>
         </div>
@@ -89,6 +87,9 @@ and 1 across on extra-small and small screens. -->
     </div>
   </div>
 </div>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>

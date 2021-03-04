@@ -1,13 +1,6 @@
-/* .btn-btn-secondary-dropdown-toggle{
-    position:fixed;
-    right: 5px;
-    width: 300px;
-    border: 1px solid #73AD21;
-    padding: 10px;
-  } */
-
-
 /* Add your styles here */
+
+/* Stlyes the navigation bar across all .html pages. */
 .navbar{
     background: white;
     padding: 10px;
@@ -22,13 +15,13 @@
     margin-left: 10px;
 }
 
-/*This will remove link and underscore*/
+This will remove link and underscore
 .navbar li a{
     color: black;
     text-decoration: none;
 }
 
-/*This will add style to the class=header*/
+/*This will add style to the class=header in all .html pages*/
 .header{
     font-size: 15px;
     text-align: left;
@@ -45,31 +38,35 @@
     text-align: left-center;
 }
 
-/*This will add style to the class=header*/
+/*This will add style to the class=posts h2*/
 .posts h2{
     font-size: 20px;
 }
 
+/*This will add style to the class=post p*/
 .post p{
     font-size: 12px;
 }
 
+/*This will add style to the class=post*/
 .post{
     margin-top: 25px;
     margin-right: 100px;
     margin-left: 100px;
 }
 
-.table{
+/*This will add style to the class=table-responsive-sm*/
+.table-responsive-sm{
     font-size: 15px;
     background-color: whitesmoke;
     text-align: center;
-    padding: 20px;
+    padding: 18px;
     column-span: all;
 }
 
+/*This will add style to the class=navbar-brand*/
 .navbar-brand{
-    background-color: rgb(184, 217, 240);
+    background-color: rgb(123, 174, 240);
     color: white;
     border: 2px solid #0c0909;
     border-radius: 12px;
@@ -78,14 +75,46 @@
     text-align: center;
 }
 
-.body{
-    padding-bottom: 20px;
-}
-
+/*This will add style to the class=visuals-header*/
 .visuals-header{
     margin-top: 25px;
 }
 
+/*This will add style to the class=posts*/
 .posts{
     margin-top: 25px;
+}
+
+/*This will add style to the class=center*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 50%;
+  }
+
+  /*This will add style to the class=.comp-header for comparison.html*/
+.comp-header{
+    color: rgb(16, 122, 172);
+    text-shadow: 2px 2px 5px rgb(64, 209, 161);
+    font-size:18px; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+  /*This will add style to the class=.comp-header for .html plots*/
+.body-plots{
+    background-color:whitesmoke;
+}
+
+ /*This will add style to the class=footer for landingpage.html*/
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
 }

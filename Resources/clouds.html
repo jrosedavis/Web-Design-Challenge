@@ -4,21 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard: Web Visualizations</title>
+  <title>Dashboard: Latitude vs Cloudiness</title>
   <link rel="stylesheet" href="reset.css">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
   <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="./assets/images/iconwrld.png" type="image/x-icon">
 </head>
 
 </head>
 
 <!-- Include a button to link back to main page, a drop down menu to plots, & links to comparison & data page. -->
-<body>
+<body class= "body-plots">
 <nav id="navi" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -46,33 +42,83 @@
       <h1>Summary: Latitude vs. Weather Factors</h1>
     </header>
 
-<!-- Include side bar links to each figure - i.e. each image should take user to visualization & explanation of project. -->
-<div class="col-lg-5 col-md-12">
-  <div class="visuals-figures">
+ <!-- Include side bar links to each figure - i.e. each image should take user to visualization & explanation of project. -->
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-7">
     <h2 class="posts">Figure 3: Cloudiness</h2>
 
-  <!-- Figure 3: Lat vs Cloudiness -->
-  <div class="container">
-    <section class="row">
-      <div class="col-lg-6 col-md-3">
-        <a href="clouds.html">
-          <img src="./assets/images/Fig3.png" alt="Latitude vs Cloudiness" id="vis-image">
-        </a>
-  </div>
+<!-- Include Figure 3: Cloudiness information -->
+     <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-7">
+          <img class="mb-2 mr-4 pr-5 img-fluid" src="./assets/images/Fig3.png" width=550px height=450px alt="Latitude vs Cloudiness">
+          <p>Analysis of cities latitude and the percent cloudiness of those cities. Data points are largely distributed, it doesn't appear that latitude and cloudiness have a direct relationship.</p>
+        </br></br>
+        </div>
 
-  <div class="container">
-    <section class="row">
-      <div class="col-lg-7 col-md-12">
-        <p>
-            Above is the output analysis of a cities latitude and the percent cloudiness of those cities. Data points are largely      
-            distributed, it doesn't appear that latitude and cloudiness have a direct relationship.
-        </p>
-    </section>
+<!-- Include the "sidebar" visualizations for comparison -->
+<div class="card col-lg-5 ml-3">
+  <h3 class="pb-6">Visualizations</h3> 
+  <div class="row justify-content-center">
+
+<!-- Lat vs Maxmium Temperature -->
+    <div class="col-lg-5 col-sm-3">
+      <div class="card mb-3" style="width: 10rem;">
+        <a href="temp.html">
+          <img class="card-img-top" src="./assets/images/Fig1.png" width=100px height=120px alt="Latitude vs Maximum Temperature">
+        </a>
+        <div class="card-body">
+          <h6 class="card-title text-center">Fig 1: Max Temp</h6>
+        </div>
+      </div>
+    </div>
+
+<!-- Lat vs Humidity -->
+            <div class="col-lg-5 col-sm-3">
+              <div class="card mb-3" style="width: 10rem;">
+                <a href="humidity.html">
+                  <img class="card-img-top" src="./assets/images/Fig2.png" width=100px height=120px alt="Latitude vs Humidity">
+                </a>
+                <div class="card-body">
+                  <h6 class="card-title text-center">Fig 2: Humidity</h6>
+                </div>
+              </div>
+            </div>
+
+<!-- Lat vs Cloudiness -->
+            <div class="col-lg-5 col-sm-3">
+              <div class="card mb-3" style="width: 10rem;">
+                <a href="clouds.html">
+                  <img class="card-img-top" src="./assets/images/Fig3.png" width=100px height=120px alt="Latitude vs Cloudiness">
+                </a>
+                <div class="card-body">
+                  <h6 class="card-title text-center">Fig 3: Cloudiness</h6>
+                </div>
+              </div>
+            </div>
+
+<!-- Lat vs Wind Speed -->
+            <div class="col-lg-5 col-sm-3">
+              <div class="card mb-3" style="width: 10rem;"> 
+                <a href="windspd.html">
+                  <img class="card-img-top" src="./assets/images/Fig4.png" width=100px height=120px alt="Latitude vs Wind Speed">
+                </a>
+                <div class="card-body">
+                  <h6 class="card-title text-center">Fig 4: Wind Speed</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
 </br>
 </br>
-</br>
-</div>
-  
+<!-- Script source has to be at the end, before body and html close. -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>

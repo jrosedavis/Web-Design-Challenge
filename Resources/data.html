@@ -4,21 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard: Web Visualizations</title>
+  <title>Dashboard: Data</title>
   <link rel="stylesheet" href="reset.css">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
-  <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
   <link rel="stylesheet" href="style.css"/>
-</head>
-
+  <link rel="icon" href="./assets/images/iconwrld.png" type="image/x-icon">
 </head>
 
 <!-- Include a button to link back to main page, a drop down menu to plots, & links to comparison & data page. -->
-<body>
+<body class= "body-plots">
 <nav id="navi" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -48,11 +42,10 @@
 
 <div class="container">
   <h5><strong>The following table includes all of the data used for plotting this project.</strong></h5>
-<div class="table-responsive">
+<div class="table-responsive-md">
 <table class="table table-bordered table-striped">
-  <td colspan="0">
   <thead class="thead-light">
-    <tr style="text-align: right;">
+    <tr style="text-align: center;">
       <th>City_ID</th>
       <th>City</th>
       <th>Cloudiness</th>
@@ -6632,5 +6625,8 @@
     </tr>
   </tbody>
 </table>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
