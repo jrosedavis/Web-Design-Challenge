@@ -4,6 +4,9 @@
 
 * Web Visualization Dashboard of weather in 500+ cities at different latitudes relative to the equator line. The visualizations show temperature, humidity, cloudiness, and wind speed using HTML5, CSS3, and Bootstrap4.
 
+![image](https://user-images.githubusercontent.com/72557712/120234416-26716700-c215-11eb-8b40-b8d40b347642.png)
+
+
 ## Files:
 * .html files for deployment.
 *  .ipynb file for responsive table using pandas.
